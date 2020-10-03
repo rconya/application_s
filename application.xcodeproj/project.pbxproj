@@ -13,6 +13,8 @@
 		FDC4EF2925265F3900B76ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2725265F3900B76ECB /* Main.storyboard */; };
 		FDC4EF2B25265F3C00B76ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2A25265F3C00B76ECB /* Assets.xcassets */; };
 		FDC4EF2E25265F3C00B76ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2C25265F3C00B76ECB /* LaunchScreen.storyboard */; };
+		FDC4EF3625285CFB00B76ECB /* AuthorizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */; };
+		FDC4EF3825286B7200B76ECB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDC4EF2A25265F3C00B76ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC4EF2D25265F3C00B76ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDC4EF2F25265F3C00B76ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizViewController.swift; sourceTree = "<group>"; };
+		FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FDC4EF2A25265F3C00B76ECB /* Assets.xcassets */,
 				FDC4EF2C25265F3C00B76ECB /* LaunchScreen.storyboard */,
 				FDC4EF2F25265F3C00B76ECB /* Info.plist */,
+				FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */,
+				FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */,
 			);
 			path = application;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC4EF3625285CFB00B76ECB /* AuthorizViewController.swift in Sources */,
 				FDC4EF2625265F3900B76ECB /* ViewController.swift in Sources */,
 				FDC4EF2225265F3900B76ECB /* AppDelegate.swift in Sources */,
 				FDC4EF2425265F3900B76ECB /* SceneDelegate.swift in Sources */,
+				FDC4EF3825286B7200B76ECB /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
