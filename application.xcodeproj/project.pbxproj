@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD785625252F87CD009F9300 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD785624252F87CD009F9300 /* FriendsViewController.swift */; };
 		FDC4EF2225265F3900B76ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF2125265F3900B76ECB /* AppDelegate.swift */; };
 		FDC4EF2425265F3900B76ECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF2325265F3900B76ECB /* SceneDelegate.swift */; };
 		FDC4EF2625265F3900B76ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF2525265F3900B76ECB /* ViewController.swift */; };
 		FDC4EF2925265F3900B76ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2725265F3900B76ECB /* Main.storyboard */; };
 		FDC4EF2B25265F3C00B76ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2A25265F3C00B76ECB /* Assets.xcassets */; };
 		FDC4EF2E25265F3C00B76ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC4EF2C25265F3C00B76ECB /* LaunchScreen.storyboard */; };
-		FDC4EF3625285CFB00B76ECB /* AuthorizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */; };
 		FDC4EF3825286B7200B76ECB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */; };
 		FDC4EF3B252CE7D500B76ECB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3A252CE7D500B76ECB /* SettingsTableViewController.swift */; };
+		FDE277EB2535E8BB00D8695D /* AuthorizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */; };
+		FDE277ED253DFAC800D8695D /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE277EC253DFAC800D8695D /* UserTableViewCell.swift */; };
+		FDE277EF253E026600D8695D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE277EE253E026600D8695D /* User.swift */; };
+		FDE277F1253E04E000D8695D /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE277F0253E04E000D8695D /* ModelUser.swift */; };
+		FDE277F3253E190500D8695D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE277F2253E190500D8695D /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD785624252F87CD009F9300 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		FDC4EF1E25265F3900B76ECB /* application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC4EF2125265F3900B76ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC4EF2325265F3900B76ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +36,10 @@
 		FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizViewController.swift; sourceTree = "<group>"; };
 		FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		FDC4EF3A252CE7D500B76ECB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FDE277EC253DFAC800D8695D /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		FDE277EE253E026600D8695D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FDE277F0253E04E000D8695D /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		FDE277F2253E190500D8695D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD7856262531A5DC009F9300 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDE277EC253DFAC800D8695D /* UserTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		FDC4EF1525265F3900B76ECB = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +80,7 @@
 		FDC4EF2025265F3900B76ECB /* application */ = {
 			isa = PBXGroup;
 			children = (
+				FD7856262531A5DC009F9300 /* cells */,
 				FDC4EF2125265F3900B76ECB /* AppDelegate.swift */,
 				FDC4EF2325265F3900B76ECB /* SceneDelegate.swift */,
 				FDC4EF2725265F3900B76ECB /* Main.storyboard */,
@@ -72,6 +91,10 @@
 				FDC4EF3525285CFB00B76ECB /* AuthorizViewController.swift */,
 				FDC4EF3725286B7200B76ECB /* MyTabBarController.swift */,
 				FDC4EF3A252CE7D500B76ECB /* SettingsTableViewController.swift */,
+				FD785624252F87CD009F9300 /* FriendsViewController.swift */,
+				FDE277EE253E026600D8695D /* User.swift */,
+				FDE277F0253E04E000D8695D /* ModelUser.swift */,
+				FDE277F2253E190500D8695D /* UserViewController.swift */,
 			);
 			path = application;
 			sourceTree = "<group>";
@@ -147,10 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC4EF3625285CFB00B76ECB /* AuthorizViewController.swift in Sources */,
 				FDC4EF2625265F3900B76ECB /* ViewController.swift in Sources */,
 				FDC4EF3B252CE7D500B76ECB /* SettingsTableViewController.swift in Sources */,
+				FDE277F1253E04E000D8695D /* ModelUser.swift in Sources */,
+				FDE277F3253E190500D8695D /* UserViewController.swift in Sources */,
 				FDC4EF2225265F3900B76ECB /* AppDelegate.swift in Sources */,
+				FDE277EB2535E8BB00D8695D /* AuthorizViewController.swift in Sources */,
+				FDE277ED253DFAC800D8695D /* UserTableViewCell.swift in Sources */,
+				FDE277EF253E026600D8695D /* User.swift in Sources */,
+				FD785625252F87CD009F9300 /* FriendsViewController.swift in Sources */,
 				FDC4EF2425265F3900B76ECB /* SceneDelegate.swift in Sources */,
 				FDC4EF3825286B7200B76ECB /* MyTabBarController.swift in Sources */,
 			);
