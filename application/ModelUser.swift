@@ -12,7 +12,7 @@ import UIKit
 class ModelUser {
     var users = [[User]]()
     init() {
-        setup()
+        ()
     }
     func setup(){
         let man1 = User(name: "Николай", сity: "Москва", image: UIImage(named: "nikolay")!, gender: .male)
